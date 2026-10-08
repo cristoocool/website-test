@@ -1,0 +1,81 @@
+:root{
+    --web-background: rgb(5, 5, 5);
+    --web-background-sec: rgb(12,12,12);
+
+    --text-primary: rgb(255, 255, 255);
+    --text-accent: rgb(89, 0, 255);
+
+    /*  --text-accent: rgb(89, 0, 255);*/ 
+    --text-green: rgb(0, 250, 21);
+
+    --rsg-primary: rgb(255, 171, 0);
+    --rsg-background: rgb(255, 171, 0, 0.1);
+
+    --disc-primary: rgb(88, 101, 242);
+    --disc-background: rgb(88, 101, 242, 0.1);
+
+    --steam-primary: rgb(102, 192, 244);
+    --steam-background: rgb(102, 192, 244, 0.1);
+}   
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+body{
+    background-color: var(--web-background);
+
+    color: var(--text-primary);
+}
+
+.page-container {
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: rgba(0, 0, 255, 0.068);*/ 
+}
+
+
+.content-container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    box-sizing: border-box;
+}
+
+
+.main-container{
+    min-height: 100vh;
+    
+    overflow: auto;
+}
+
+.products-container{
+    min-height: 50vh;
+    
+}
+
+.text-container{
+    
+    text-align: center;
+}
+
+.main-title{
+    font-size: clamp(2rem, 6vw, 4rem);
+    font-weight: bold;
+
+    padding-top: 100px;
+    color: var(--text-accent);
+}
+
+.text-accent{
+    color: var(--text-accent);
+}
+
+.title-description{
+    font-weight: bold;
+    font-size: clamp(1.2rem, 3vw, 2rem);
+
+    padding-bottom: 50px;
+}
